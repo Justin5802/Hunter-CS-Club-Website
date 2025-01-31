@@ -45,6 +45,20 @@ const Home = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
+     <Box sx={{
+      backgroundColor: "#2E0063", 
+      color: "gold",               
+      padding: "20px 0",            
+      textAlign: "center", 
+      fontWeight: "bold",
+      marginTop: "64px", 
+    }}>
+  <Typography variant="body1" sx={{ fontSize: "35px" }}>
+    The CS Club website is being revamped/redesigned. Expect an update soon!
+  </Typography>
+</Box>
+
+
       <Grid
         container
         spacing={8}
